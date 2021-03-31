@@ -1,0 +1,32 @@
+|control_unit
+IR[0] => ~NO_FANOUT~
+IR[1] => ~NO_FANOUT~
+IR[2] => ~NO_FANOUT~
+IR[3] => ~NO_FANOUT~
+IR[4] => ~NO_FANOUT~
+IR[5] => ~NO_FANOUT~
+IR[6] => ~NO_FANOUT~
+IR[7] => ~NO_FANOUT~
+CCR_Result[0] => ~NO_FANOUT~
+CCR_Result[1] => ~NO_FANOUT~
+CCR_Result[2] => ~NO_FANOUT~
+CCR_Result[3] => ~NO_FANOUT~
+clock => current_state~1.DATAIN
+reset => current_state~3.DATAIN
+Bus1_Sel[0] <= <GND>
+Bus1_Sel[1] <= <GND>
+Bus2_Sel[0] <= Bus2_Sel[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Bus2_Sel[1] <= <GND>
+ALU_Sel[0] <= <GND>
+ALU_Sel[1] <= <GND>
+ALU_Sel[2] <= <GND>
+IR_Load <= <GND>
+MAR_Load <= MAR_Load$latch.DB_MAX_OUTPUT_PORT_TYPE
+PC_Load <= <GND>
+PC_Inc <= PC_Inc$latch.DB_MAX_OUTPUT_PORT_TYPE
+A_Load <= <GND>
+B_Load <= <GND>
+CCR_Load <= <GND>
+writen <= <GND>
+
+

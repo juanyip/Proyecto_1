@@ -1,0 +1,53 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'current_state.S_FETCH_0'
+Slack : -0.193
+TNS   : -0.193
+
+Type  : Slow 1200mV 85C Model Hold 'current_state.S_FETCH_0'
+Slack : -0.288
+TNS   : -0.387
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -8.140
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'current_state.S_FETCH_0'
+Slack : 0.390
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'current_state.S_FETCH_0'
+Slack : -0.183
+TNS   : -0.183
+
+Type  : Slow 1200mV 0C Model Hold 'current_state.S_FETCH_0'
+Slack : -0.142
+TNS   : -0.142
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -8.140
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'current_state.S_FETCH_0'
+Slack : 0.393
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'current_state.S_FETCH_0'
+Slack : 0.493
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'current_state.S_FETCH_0'
+Slack : -0.253
+TNS   : -0.405
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -7.231
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'current_state.S_FETCH_0'
+Slack : 0.446
+TNS   : 0.000
+
+------------------------------------------------------------
