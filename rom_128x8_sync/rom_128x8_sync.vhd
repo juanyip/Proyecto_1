@@ -42,7 +42,7 @@ architecture rom_arch of rom_128x8_sync is
 												2		=>	STA_DIR,
 												3		=>	x"E0",
 												4		=>	BRA,
-												5		=>	x"AF",
+												5		=>	x"00",
 												others=>	x"00");
 begin
 	enable : process(address)
