@@ -264,21 +264,12 @@ TRANSITION_LIST("address[3]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 560.0;
-	}
-}
-
-TRANSITION_LIST("address[2]")
-{
-	NODE
-	{
-		REPEAT = 1;
 		LEVEL 0 FOR 360.0;
 		LEVEL 1 FOR 200.0;
 	}
 }
 
-TRANSITION_LIST("address[1]")
+TRANSITION_LIST("address[2]")
 {
 	NODE
 	{
@@ -290,7 +281,7 @@ TRANSITION_LIST("address[1]")
 	}
 }
 
-TRANSITION_LIST("address[0]")
+TRANSITION_LIST("address[1]")
 {
 	NODE
 	{
@@ -302,6 +293,23 @@ TRANSITION_LIST("address[0]")
 			REPEAT = 2;
 			LEVEL 0 FOR 80.0;
 			LEVEL 1 FOR 80.0;
+		}
+		LEVEL 0 FOR 40.0;
+	}
+}
+
+TRANSITION_LIST("address[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 40.0;
+		NODE
+		{
+			REPEAT = 5;
+			LEVEL 0 FOR 40.0;
+			LEVEL 1 FOR 40.0;
 		}
 		LEVEL 0 FOR 40.0;
 	}

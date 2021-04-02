@@ -26,4 +26,4 @@
 # Loading work.alu_vlg_check_tst
 # Simulation passed !
 # ** Note: $finish    : Waveform.vwf.vt(357)
-#    Time: 120 ns  Iteration: 0  Instance: /alu_vlg_vec_tst/tb_out
+#    Time: 100 ns  Iteration: 0  Instance: /alu_vlg_vec_tst/tb_out

@@ -26,30 +26,6 @@
 # Loading work.rom_128x8_sync_vlg_sample_tst
 # Loading work.rom_128x8_sync_vlg_check_tst
 # Loading altera_ver.PRIM_GDFF_LOW
-# ERROR! Vector Mismatch for output port data_out[1] :: @time = 280000.000 ps
-#      Expected value = 00000000
-#      Real value = 10010110
-# ERROR! Vector Mismatch for output port data_out[2] :: @time = 280000.000 ps
-#      Expected value = 00000000
-#      Real value = 10010110
-# ERROR! Vector Mismatch for output port data_out[4] :: @time = 280000.000 ps
-#      Expected value = 00000000
-#      Real value = 10010110
-# ERROR! Vector Mismatch for output port data_out[7] :: @time = 280000.000 ps
-#      Expected value = 00000000
-#      Real value = 10010110
-# ERROR! Vector Mismatch for output port data_out[5] :: @time = 300000.000 ps
-#      Expected value = 00000000
-#      Real value = 11100000
-# ERROR! Vector Mismatch for output port data_out[6] :: @time = 300000.000 ps
-#      Expected value = 00000000
-#      Real value = 11100000
-# ERROR! Vector Mismatch for output port data_out[0] :: @time = 460000.000 ps
-#      Expected value = 00000000
-#      Real value = 10101111
-# ERROR! Vector Mismatch for output port data_out[3] :: @time = 460000.000 ps
-#      Expected value = 00000000
-#      Real value = 10101111
-#           8 mismatched vectors : Simulation failed !
+# Simulation passed !
 # ** Note: $finish    : Waveform1.vwf.vt(283)
 #    Time: 560 ns  Iteration: 0  Instance: /rom_128x8_sync_vlg_vec_tst/tb_out
