@@ -49,14 +49,18 @@ begin
 				NZVC(2) <= '0';
 			end if;
 			--- Overflow Flag (V) -------------------------------
-			if ((A(7)='0' and B(7)='0' and Sub_uns(7)='1') or
-			(A(7)='1' and B(7)='1' and Sub_uns(7)='0')) then
+			if ((A(7)='0' and B(7)='0' and Sum_uns(7)='1') or
+			(A(7)='1' and B(7)='1' and Sum_uns(7)='0')) then
 				NZVC(1) <= '1';
 			else
 				NZVC(1) <= '0';
 			end if;
 			--- Carry Flag (C) ------------------------------------
-			NZVC(0) <= Sub_uns(8);
+			if (unsigned('0' & A) < unsigned('0' & B)) then
+				NZVC(0) <= '1';
+			else
+				NZVC(0) <= '0';
+			end if;
 		end if;
 	end process;
 end architecture;
